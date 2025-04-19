@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Heading, Text, Image, Flex } from "theme-ui";
 
-const PremierLeague: React.FC = () => {
+export const PremierLeague: React.FC = () => {
   return (
     <Card
       sx={{
@@ -111,5 +111,3 @@ const PremierLeague: React.FC = () => {
     </Card>
   );
 };
-
-export default PremierLeague;

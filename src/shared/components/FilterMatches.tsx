@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Flex } from "theme-ui";
 
-const FilterMatches: React.FC = () => {
+export const FilterMatches: React.FC = () => {
   return (
     <Flex
       sx={{
@@ -52,5 +52,3 @@ const FilterMatches: React.FC = () => {
     </Flex>
   );
 };
-
-export default FilterMatches;

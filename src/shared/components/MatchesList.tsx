@@ -1,9 +1,9 @@
 import React from "react";
 import { Flex } from "theme-ui";
-import FilterMatches from "./FilterMatches";
-import Match from "./Match";
+import { FilterMatches } from "@components/FilterMatches";
+import { Match } from "@components/Match";
 
-const MatchesList: React.FC = () => {
+export const MatchesList: React.FC = () => {
   return (
     <Flex
       as={"section"}
@@ -23,5 +23,3 @@ const MatchesList: React.FC = () => {
     </Flex>
   );
 };
-
-export default MatchesList;

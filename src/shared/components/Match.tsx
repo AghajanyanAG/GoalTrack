@@ -1,7 +1,8 @@
 import React from "react";
 import { Flex, Link, Heading, Image } from "theme-ui";
-import MatchInfo from "./MatchInfo";
-const Match: React.FC = () => {
+import { MatchInfo } from "@components/MatchInfo";
+
+export const Match: React.FC = () => {
   return (
     <Flex
       sx={{
@@ -40,5 +41,3 @@ const Match: React.FC = () => {
     </Flex>
   );
 };
-
-export default Match;

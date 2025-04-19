@@ -1,7 +1,9 @@
 import React, { ReactNode } from "react";
 import { Button } from "theme-ui";
 
-const ToggleButton: React.FC<{ children: ReactNode }> = ({ children }) => (
+export const ToggleButton: React.FC<{ children: ReactNode }> = ({
+  children,
+}) => (
   <Button
     sx={{
       width: "100px",
@@ -22,5 +24,3 @@ const ToggleButton: React.FC<{ children: ReactNode }> = ({ children }) => (
     {children}
   </Button>
 );
-
-export default ToggleButton;

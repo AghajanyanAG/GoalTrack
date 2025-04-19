@@ -1,11 +1,11 @@
 import React from "react";
 import { Input } from "theme-ui";
 
-const BaseInput: React.FC = () => {
+export const SearchInput: React.FC = () => {
   return (
     <Input
-      type="Search"
-      placeholder="Search"
+      type="search"
+      placeholder="search"
       sx={{
         width: "500px",
         px: 2,
@@ -18,5 +18,3 @@ const BaseInput: React.FC = () => {
     />
   );
 };
-
-export default BaseInput;

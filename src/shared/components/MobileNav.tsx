@@ -4,7 +4,7 @@ import { GiSoccerField } from "react-icons/gi";
 import { GiTrophyCup } from "react-icons/gi";
 import { BiTransfer } from "react-icons/bi";
 
-const MobileNav: React.FC = () => {
+export const MobileNav: React.FC = () => {
   return (
     <Flex
       as="nav"
@@ -49,5 +49,3 @@ const MobileNav: React.FC = () => {
     </Flex>
   );
 };
-
-export default MobileNav;

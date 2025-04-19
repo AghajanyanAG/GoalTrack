@@ -1,10 +1,10 @@
 import React from "react";
 import { Flex } from "theme-ui";
-import Topleagues from "./Topleagues";
-import PremierLeague from "./PremierLeague";
-import MatchesList from "./MatchesList";
+import { Topleagues } from "@components/Topleagues";
+import { PremierLeague } from "@components/PremierLeague";
+import { MatchesList } from "@components/MatchesList";
 
-const Main: React.FC = () => {
+export const Main: React.FC = () => {
   return (
     <Flex
       sx={{
@@ -22,5 +22,3 @@ const Main: React.FC = () => {
     </Flex>
   );
 };
-
-export default Main;

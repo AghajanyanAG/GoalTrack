@@ -4,7 +4,7 @@ import { LuInstagram } from "react-icons/lu";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 
-const Footer: React.FC = () => {
+export const Footer: React.FC = () => {
   return (
     <Flex
       as="footer"
@@ -119,5 +119,3 @@ const Footer: React.FC = () => {
     </Flex>
   );
 };
-
-export default Footer;

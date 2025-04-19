@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Link, Text, Image, Box, Divider } from "theme-ui";
 
-const MatchInfo: React.FC = () => {
+export const MatchInfo: React.FC = () => {
   return (
     <Link sx={{ width: "100%", "&:hover": { textDecoration: "none" } }}>
       <Flex
@@ -40,5 +40,3 @@ const MatchInfo: React.FC = () => {
     </Link>
   );
 };
-
-export default MatchInfo;

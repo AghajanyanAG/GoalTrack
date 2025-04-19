@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Link, Image, Text, Flex } from "theme-ui";
 
-const MyList: React.FC = () => (
+export const League: React.FC = () => (
   <Box as="ul" sx={{ listStyleType: "none", padding: 0 }}>
     <Flex
       as="li"
@@ -24,5 +24,3 @@ const MyList: React.FC = () => (
     </Flex>
   </Box>
 );
-
-export default MyList;

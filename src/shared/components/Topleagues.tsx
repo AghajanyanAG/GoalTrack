@@ -1,8 +1,8 @@
 import React from "react";
 import { Flex, Heading } from "theme-ui";
-import League from "../components/League";
+import { League } from "@components/League";
 
-const Topleagues: React.FC = () => {
+export const Topleagues: React.FC = () => {
   return (
     <Flex
       sx={{
@@ -31,5 +31,3 @@ const Topleagues: React.FC = () => {
     </Flex>
   );
 };
-
-export default Topleagues;

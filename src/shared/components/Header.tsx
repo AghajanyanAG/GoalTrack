@@ -1,11 +1,11 @@
 import React from "react";
 import { Box, Flex, Link, Image, IconButton } from "theme-ui";
-import Search from "../ui/BaseInput";
-import ToggleButton from "../ui/ToggleButton";
+import { SearchInput } from "../ui/SearchInput";
+import { ToggleButton } from "../ui/ToggleButton";
 import { IoIosSearch, IoIosSunny } from "react-icons/io";
 import { GoMoon } from "react-icons/go";
 
-const Header: React.FC = () => {
+export const Header: React.FC = () => {
   return (
     <Box
       as={"header"}
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
               },
             }}
           >
-            <Search />
+            <SearchInput />
           </Box>
         </Flex>
         <Flex sx={{ alignItems: "center", gap: [3, 4, 60] }}>
@@ -75,5 +75,3 @@ const Header: React.FC = () => {
     </Box>
   );
 };
-
-export default Header;
